@@ -20,3 +20,13 @@ body h1{
 body p{
     color: white;
 }
+
+body .imagem{
+    display: flex;
+    flex-direction: column;
+}
+
+body .imagem img{
+    width: 150px;
+    height: 150px;
+}
