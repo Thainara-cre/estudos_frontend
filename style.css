@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body .titulo{
+    background-color: #999;
+    padding-right: 250px;
+}
+
+body .texto{
+    background-color: #000000;
+    padding-bottom: 250px;
+}
+
+body h1{
+    color: #ffffff;
+}
+
+body p{
+    color: white;
+}
