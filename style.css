@@ -1,20 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body{
     margin: 0;
     padding: 0;
 }
 
-body .titulo{
-    background-color: #999;
-    padding-right: 250px;
+h1, p, h2, li{
+    font-family: 'Roboto', sans-serif;
 }
 
-body .texto{
-    background-color: #000000;
-    padding-bottom: 250px;
+body .caixa{
+    background-color: #999;
+    margin-top: 50px;
+    width: 400px;
+    padding:20px;
+    margin-left: 15px;
+    border-radius: 10px;
 }
 
 body h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 15px;
+    color: #000000;
+}
+
+body .container{
+    display: flex;
+    flex-direction: row;
+}
+
+body .caixa .linha{
+    display: flex;
+    flex-direction: row;
+} 
+
+body .caixa .linha p + p{ /*isso faz com  que eupegue so o segundo p*/
+    margin-left: 10px;
+}
+
+body .caixa h2{
     color: #ffffff;
+}
+
+body .caixa li{
+    color: #ffffff;
+    font-size: 20px;
 }
 
 body p{
@@ -23,10 +54,20 @@ body p{
 
 body .imagem{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 body .imagem img{
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+body .imagem p{
+    color: #000000;
+    font-size: 30px;
+    margin-left: 15px;
 }
